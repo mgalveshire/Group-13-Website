@@ -1,0 +1,42 @@
+.titleAndLogo {
+	width: 100%;
+}
+.titleWebsite {
+   width: 90%;
+   border: 2px solid black;
+   margin-right: 0px;
+
+}
+
+.logo {
+   width: 10%;
+   border: 2px solid black;
+   
+}
+nav {
+	border: 2px solid black;
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+}
+h2 {
+	font-weight: normal; /* text not in bold */
+	width: 25%;
+	border: 2px solid black;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.picOfFood {
+	width: 170px;
+	height: 150px;
+	margin: 7.5%;
+	
+}
+.dishName {
+	text-decoration: underline;
+	font-weight: bold;
+}
+.dishDescription {
+	width: 87.5%;
+	text-align: justify;
+}
