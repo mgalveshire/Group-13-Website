@@ -33,12 +33,6 @@
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             
         }
-        .instructons{
-            text-align: center;
-            margin-left: 40px;
-            margin-top: 20px;
-            width: 900px;
-        }
         .info{
             display: flex;
             flex-direction: column;
@@ -50,9 +44,25 @@
             justify-content: center;
         }
         .ingredients{
-            display: flex; /* Use flexbox layout */
-            align-items: center; /* Center items vertically, in this case */
+            display: flex;
+            align-items: center; 
             justify-content: center;
+        }
+        .instructons{
+            width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+        }
+        td {
+            padding: 0 10px 20px;
+        }
+        .Steps{
+            font-size: 35px;
+            background-color: #e6ccb3 ;
+        }
+        .Steps:hover{
+            background-color: #f9f2ec;
         }
     </style>
 </head>
@@ -79,7 +89,7 @@
             <span>15 min</span>
         </div>
         <div>
-            <img src="C:\Downloads\serving.png" width="40" height="45">
+            <img src="C:\Downloads\serving.png" width="40" height="45" style="margin-right: 20px;">
         </div>
         <div class = "info">
             <span>Servings</span>
@@ -88,42 +98,59 @@
     </div>
     <div class = "ingredients" >
         <img src="C:\Downloads\guacamole.jpg" style="margin-bottom: 30px; margin-left: 40px; margin-top: 30px;" width="330" height="300" style="float: left"> <!-- from unsplash-->
-        <ul>
-            <h2>what you will need:</h2>
-            <li>2 tsp lime juice or 1 fresh lime</li>
-            <li>2 roma tomatoes</li>
-            <li>1 jalapeno</li>
-            <li>1/4 red onion</li>
-            <li>2 tbsp of cilantro</li>
-            <li>3 medium avacados</li>
-            <li> 1/2 of salt</li>
-        </ul>
+        <form action="http://example.com/survey" style="margin-left: 150px;">
+            <h2>what you will need</h2>
+            <p>
+               <label for="item1">2 tsp lime juice or 1 fresh lime</label>
+               <input type="checkbox" name="item1" id="item1">
+            </p>
+            <p>
+               <label for="item2">2 roma tomatoes</label>
+               <input type="checkbox" name="item2" id="item2">
+            </p>
+            <p>
+               <label for="item3">1 jalapeno</label>
+               <input type="checkbox" name="item3" id="item3">
+            </p>
+             <p>
+                <label for="item4">1/4 red onion</label>
+                <input type="checkbox" name="item4" id="item4">
+             </p>
+             <p>
+                <label for="item5">2 tbsp of cilantro</label>
+                <input type="checkbox" name="item5" id="item5">
+             </p>
+             <p>
+                <label for="item6">3 medium avacados</label>
+                <input type="checkbox" name="item6" id="item6">
+             </p>
+             <p>
+                <label for="item7">1/2 of salt</label>
+                <input type="checkbox" name="item7" id="item7">
+             </p>
+        </form>
     </div>
     <div class = "instructons">
         <table>
             <tr>
-                <td style="font-size: 35px;"> Step one</td>
-            </tr>
-            <tr>
-                <td></td>
+                <td  class = "Steps"> Step one</td>
                 <td style="font-size: 23px">Start by first dicing the tomatos, jalapeno, red onion Mix these together.
-                Dice the cilanto and juice the limes. Place these to the side</td>
+                    Dice the cilanto and juice the limes. Place these to the side</td>
             </tr>
             <tr>
-                <td style="font-size: 35px;">Step two</td>
+                <td class = "Steps">Step two</td>
+                <td style="font-size: 23px">Next peel the avacados remove the seed and place these in bowl.
+                    After this mash the avacdos with a fork</td>
             </tr>
             <tr>
-                <td></td>
-                <td style="font-size: 23px">Next peel the avacdos remove the seed and place these in bowl.
-                After this mash the avacdos with a fork</td>
-            </tr>
-            <tr>
-                <td style="font-size: 35px;">Step three</td>
-            </tr>
-            <tr>
-                <td></td>
+                <td class = "Steps">Step three</td>
                 <td style="font-size: 23px">Combine all your ingredients together. Along with 1 tbsp of lime juice
-                and 1/4 tsp of salt </td>
+                    and 1/4 tsp of salt </td>
+            </tr>
+            <tr>
+                <td class = "Steps">Step four</td>
+                <td style="font-size: 23px"> Taste the guacamole. If wanted add more salt and lime. Most use up to 
+                    1/2 tsp salt and 2 tbsp lime juice</td>
             </tr>
         </table>
     </div>
