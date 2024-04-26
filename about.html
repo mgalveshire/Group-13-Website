@@ -3,9 +3,102 @@
 <!--Authors: Aidan, Aspen, Brianna, John, Jovian, Lucas, Molly, Ryan -->
 <head>
    <meta charset="UTF-8">
+   <link rel="stylesheet" href="styles.css">
    <title>About Us - CampusCooking</title>
 </head>
-<body>
 
+<body>
+   <table class="titleAndLogo">
+      <th class="titleWebsite"><h1>About Us</h1></th>
+      <th class="logo"> <img src="logo.png" alt="Logo" width="125"></th>
+   </table>
+
+   <div class="navigation">
+      <nav>
+         <a href="main.html">Home</a> |
+         <a href="about.html">About Us</a> |
+         <a href="tips.html">Tips & Tricks</a> |
+         <a href="appetizers.html">Appetizers</a> |
+         <a href="salads.html">Salads</a> |
+         <a href="#sides">Sides</a> |
+         <a href="#mainDish">Main Dishes</a> |
+         <a href="#dessert">Desserts</a>
+      </nav>
+   </div>
+
+   <div class="intro">
+      <h1>About Us - The College Cookbook</h1>
+      <p>The College Cookbook is a food blog focused on helping college students find things to cook. We very well understand how difficult cooking can be.
+      For some of us, it's our first time cooking on our own. For others, struggles come from budgeting money for ingredients or attempting to cook with 
+      limited tools. That's why here at The College Cookbook we focus on creating easy to make recipes that won't break the bank!</p>
+   </div>
+
+   <div class = "members">
+      <h2>Our Members</h2>
+      <table>
+         <tr>
+            <th colspan="2">Brianna Alvarez</th>
+            <th colspan="2">Molly Alveshire</th>
+            <th colspan="2">Ryan Dennehy</th>
+         </tr>
+         <tr>
+            <td><img src="image.png" alt="" width="150" height="250"></td>
+            <td>Brief Description of the person.</td>
+
+            <td><img src="image.png" alt="" width="150" height="250"></td>
+            <td>Brief Description of the person.</td>
+
+            <td><img src="image.png" alt="" width="150" height="250"></td>
+            <td>Brief Description of the person.</td>
+         </tr>
+         <tr>
+            <th colspan="2">Lucas Dent</th>
+            <th colspan="2">Aidan DiNunzio</th>
+            <th colspan="2">Connor Olive</th>
+         </tr>
+         <tr>
+            <td><img src="image.png" alt="" width="150" height="250"></td>
+            <td>Brief Description of the person.</td>
+
+            <td><img src="image.png" alt="" width="150" height="250"></td>
+            <td>Brief Description of the person.</td>
+
+            <td><img src="image.png" alt="" width="150" height="250"></td>
+            <td>Brief Description of the person.</td>
+         </tr>
+         <tr>
+            <th colspan="2">John Schmitt</th>
+            <th colspan="2">Aspen Stivers</th>
+         </tr>
+         <tr>
+            <td><img src="JFS.png" alt="" width="150" height="250"></td>
+            <td>Brief Description of the person.</td>
+
+            <td><img src="image.png" alt="" width="150" height="250"></td>
+            <td>Brief Description of the person.</td>
+         </tr>   
+      </table>
+   </div>
+
+   <div class="contact">
+      <h2>Contact Us!</h2>
+      <p> Have a question? A concern? Maybe even a recipe to share? Feel free to contact us through the texbox below! We'll get back to you soon as possible.</p>
+      <form method="POST" action="https://wp.zybooks.com/form-viewer.php">
+         <div>
+            <label for="nameMessage">Name:</label>
+            <input type="text" id="nameMessage" name="nameMessage" placeholder="Jane Doe">
+         </div>
+         <div>
+            <label for="emailAddr">Email address:</label>
+            <input type="email" id="emailAddr" name="emailAddr" pattern="[a-zA-Z0-9-_\.]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*" placeholder="name@domain.com">
+         </div>
+         <div>
+            <label for="sendingMessage">Message:</label>
+            <textarea rows="20" cols="60" name="sendingMessage" placeholder="Enter details here">
+            </textarea>
+         </div>
+         <input type="submit" value="Submit"/>
+      </form>
+   </div>
 </body>
 </html>
