@@ -99,3 +99,24 @@ td {
 .Steps:hover{
 	background-color: #f9f2ec;
 }
+form {
+	margin-left: 150px;
+}
+.guac {
+	margin-bottom: 30px; 
+	margin-left: 40px; 
+	margin-top: 30px;
+	float: left;
+}
+.info-container-2 {
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+}
+.serving {
+	margin-right: 20px;
+	width: 40px;
+}
+.steps-text {
+	font-size: 23px;
+}
