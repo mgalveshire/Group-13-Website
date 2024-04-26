@@ -19,7 +19,7 @@ nav {
 	text-align: center;
 	font-size: 20px;
 }
-h2 {
+.main-h2 {
 	font-weight: normal; /* text not in bold */
 	width: 25%;
 	border: 2px solid black;
