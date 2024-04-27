@@ -7,6 +7,7 @@
     <meta name="author" content="Aidan DiNunzio, Aspen Stivers, Brianna Alvarez, John Schmitt, Connor Olive, Lucas Dent, Molly Alveshire, Ryan Dennehy">
     <link rel="stylesheet" href="styles.css">
     <title>Chips and Guacamole - CampusCooking</title>
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -52,8 +53,13 @@
         <form action="http://example.com/survey">
             <h2>what you will need</h2>
             <p>
-               <label for="item1">2 tsp lime juice or 1 fresh lime</label>
+               <label for="item1">2 tsp lime juice</label>
                <input type="checkbox" name="item1" id="item1">
+            </p>
+            <p class="or">or</p>
+            <p>
+                <label for="item1.5">1 fresh lime</label>
+                <input type="checkbox" name="item1.5" id="item1.5">
             </p>
             <p>
                <label for="item2">2 roma tomatoes</label>
@@ -76,10 +82,15 @@
                 <input type="checkbox" name="item6" id="item6">
              </p>
              <p>
-                <label for="item7">1/2 of salt</label>
+                <label for="item7">1/2 tsp of salt</label>
                 <input type="checkbox" name="item7" id="item7">
              </p>
         </form>
+    </div>
+    <div class="scaleButton">
+        <label for="batchInput">Enter number of batches:</label>
+        <input type="number" id="batchInput" min="1">
+        <button onclick="scaleRecipe()">Scale Recipe</button>
     </div>
 
     <div class = "instructions">
@@ -102,7 +113,7 @@
             <tr>
                 <td class = "steps">Step four</td>
                 <td class="steps-text">Taste the guacamole. If wanted add more salt and lime. Most use up to 
-                    1/2 tsp salt and 2 tbsp lime juice.</td>
+                    1/2 tsp salt and 2 tbsp lime juice per batch.</td>
             </tr>
         </table>
     </div>

@@ -6,6 +6,7 @@
     <meta name="keywords" content="Mixed Greens Salad, Recipe, Salad, The College Cookbook">
     <meta name="author" content="Aidan DiNunzio, Aspen Stivers, Brianna Alvarez, John Schmitt, Connor Olive, Lucas Dent, Molly Alveshire, Ryan Dennehy">
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
     <title>Mixed Greens Salad - CampusCooking</title>
 </head>
 
@@ -52,8 +53,13 @@
         <form action="http://example.com/survey">
             <h2>what you will need</h2>
             <p>
-                <label for="item1">2 tsp lime juice or 1 fresh lime</label>
+                <label for="item1">2 tsp lime juice</label>
                 <input type="checkbox" name="item1" id="item1">
+            </p>
+            <p class="or">or</p>
+            <p>
+                <label for="item1.5">1 fresh lime</label>
+                <input type="checkbox" name="item1.5" id="item1.5">
             </p>
             <p>
                 <label for="item2">2 roma tomatoes</label>
@@ -88,6 +94,11 @@
                 <input type="checkbox" name="item9" id="item9">
             </p>
         </form>
+    </div>
+    <div class="scaleButton">
+        <label for="batchInput">Enter number of batches:</label>
+        <input type="number" id="batchInput" min="1">
+        <button onclick="scaleRecipe()">Scale Recipe</button>
     </div>
 
     <div class="instructions">
