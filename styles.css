@@ -5,6 +5,7 @@
    width: 90%;
    border: 2px solid black;
    margin-right: 0px;
+   font-size: 34px;
 
 }
 
@@ -122,3 +123,6 @@ form {
 .steps-text {
 	font-size: 23px;
 }
+input, textarea {
+	background-color: #e6ccb3;
+  }

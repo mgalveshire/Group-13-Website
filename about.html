@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--Authors: Aidan, Aspen, Brianna, John, Jovian, Lucas, Molly, Ryan -->
 <head>
    <meta charset="UTF-8">
+   <meta name="description" content="Way to contact website owners, mission statement, introductions by website owners">
+   <meta name="keywords" content="About Us, Introductions, Contact, The College Cookbook">
+   <meta name="author" content="Aidan DiNunzio, Aspen Stivers, Brianna Alvarez, John Schmitt, Connor Olive, Lucas Dent, Molly Alveshire, Ryan Dennehy">
    <link rel="stylesheet" href="styles.css">
    <title>About Us - CampusCooking</title>
 </head>
 
 <body>
    <table class="titleAndLogo">
-      <th class="titleWebsite"><h1>About Us</h1></th>
-      <th class="logo"> <img src="logo.png" alt="Logo" width="125"></th>
+      <tr>
+         <th class="titleWebsite">About Us</th>
+         <th class="logo"> <img src="logo.png" alt="Logo" width="125"></th>
+      </tr>
    </table>
 
    <div class="navigation">
@@ -37,46 +41,41 @@
       <h2>Our Members</h2>
       <table>
          <tr>
-            <th colspan="2">Brianna Alvarez</th>
-            <th colspan="2">Molly Alveshire</th>
-            <th colspan="2">Ryan Dennehy</th>
+            <th>Brianna Alvarez</th>
+            <th>Molly Alveshire</th>
+            <th>Ryan Dennehy</th>
+            <th>Lucas Dent</th>
          </tr>
          <tr>
-            <td><img src="image.png" alt="" width="150" height="250"></td>
             <td>Brief Description of the person.</td>
 
-            <td><img src="image.png" alt="" width="150" height="250"></td>
             <td>Brief Description of the person.</td>
 
-            <td><img src="image.png" alt="" width="150" height="250"></td>
-            <td>Brief Description of the person.</td>
-         </tr>
-         <tr>
-            <th colspan="2">Lucas Dent</th>
-            <th colspan="2">Aidan DiNunzio</th>
-            <th colspan="2">Connor Olive</th>
-         </tr>
-         <tr>
-            <td><img src="image.png" alt="" width="150" height="250"></td>
             <td>Brief Description of the person.</td>
 
-            <td><img src="image.png" alt="" width="150" height="250"></td>
-            <td>Brief Description of the person.</td>
-
-            <td><img src="image.png" alt="" width="150" height="250"></td>
             <td>Brief Description of the person.</td>
          </tr>
          <tr>
-            <th colspan="2">John Schmitt</th>
-            <th colspan="2">Aspen Stivers</th>
+            
+            <th>Aidan DiNunzio</th>
+            <th>Connor Olive</th>
+            <th>John Schmitt</th>
+            <th>Aspen Stivers</th>
          </tr>
          <tr>
-            <td><img src="JFS.png" alt="" width="150" height="250"></td>
+            <td>"Howdy, my name is Aidan and I am a computer science major who lived in Houston Texas before coming to the University of Arizona. 
+               One thing that I love from Texas is the barbeque so I am excited to share with yall a recipe!"</td>
+
             <td>Brief Description of the person.</td>
 
-            <td><img src="image.png" alt="" width="150" height="250"></td>
-            <td>Brief Description of the person.</td>
-         </tr>   
+            <td>"Hi there! I'm John Schmitt, a sophomore at the University of Arizona, double majoring a BA in Music and a BA in Computer Science. 
+               I'm known by my friends for being completely unable to cook, but being a pretty good baker, so I'm excited to post what I know, 
+               and learn a fair bit myself."</td>
+
+            <td>"Hello, my name is Aspen and I am a graphic design major at the University of Arizona. During my time in college, one of my biggest 
+               problems was finding the time to cook. Whether in college or not, if you find this to be a problem in your life hopefully these short 
+               quick recipes help! Enjoy!"</td>
+         </tr>
       </table>
    </div>
 
@@ -94,10 +93,10 @@
          </div>
          <div>
             <label for="sendingMessage">Message:</label>
-            <textarea rows="20" cols="60" name="sendingMessage" placeholder="Enter details here">
+            <textarea rows="20" cols="60" id="sendingMessage" name="sendingMessage" placeholder="Enter details here">
             </textarea>
          </div>
-         <input type="submit" value="Submit"/>
+         <input type="submit" value="Submit">
       </form>
    </div>
 </body>
