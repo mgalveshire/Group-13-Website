@@ -6,6 +6,7 @@
     <meta name="keywords" content="Barbecue Chicken, Recipe, Main Dish, The College Cookbook">
     <meta name="author" content="Aidan DiNunzio, Aspen Stivers, Brianna Alvarez, John Schmitt, Connor Olive, Lucas Dent, Molly Alveshire, Ryan Dennehy">
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
     <title>Barbecue Chicken - CampusCooking</title>
 </head>
 
@@ -71,6 +72,11 @@
                 <input type="checkbox" name="item5" id="item5">
             </p>
         </form>
+    </div>
+    <div class="scaleButton">
+        <label for="batchInput">Enter number of batches:</label>
+        <input type="number" id="batchInput" min="1">
+        <button onclick="scaleRecipe()">Scale Recipe</button>
     </div>
     <div class="instructions">
         <table>

@@ -6,6 +6,7 @@
     <meta name="keywords" content="Mashed Potatoes, Recipe, Side Dish, The College Cookbook">
     <meta name="author" content="Aidan DiNunzio, Aspen Stivers, Brianna Alvarez, John Schmitt, Connor Olive, Lucas Dent, Molly Alveshire, Ryan Dennehy">
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
     <title>Mashed Potatoes - CampusCooking</title>
 </head>
 
@@ -76,6 +77,11 @@
                 <input type="checkbox" name="item6" id="item6">
              </p>
         </form>
+    </div>
+    <div class="scaleButton">
+        <label for="batchInput">Enter number of batches:</label>
+        <input type="number" id="batchInput" min="1">
+        <button onclick="scaleRecipe()">Scale Recipe</button>
     </div>
 
     <div class = "instructions">

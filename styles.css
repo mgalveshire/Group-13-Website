@@ -83,6 +83,12 @@ body{
 	align-items: center; 
 	justify-content: center;
 }
+.scaleButton{
+	display: flex;
+	align-items: center; 
+	justify-content: center;
+	margin-top: 20px;
+}
 .instructions{
 	width: 900px;
 	margin-left: auto;
@@ -174,4 +180,9 @@ body {
 	max-width: 800px;
 	margin: 0 auto;
 	padding: 20px;
+}
+.or {
+	font-style: italic;
+    font-weight: bold;
+	padding-left: 20px;
 }

@@ -6,6 +6,7 @@
     <meta name="keywords" content="Chocolate Chip Cookies, Recipe, Dessert, The College Cookbook">
     <meta name="author" content="Aidan DiNunzio, Aspen Stivers, Brianna Alvarez, John Schmitt, Connor Olive, Lucas Dent, Molly Alveshire, Ryan Dennehy">
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
     <title>Chocolate Chip Cookies - CampusCooking</title>
 </head>
 
@@ -52,7 +53,7 @@
         <form action="http://example.com/survey">
             <h2>what you will need</h2>
             <p>
-               <label for="item1">8 tablespoon of salted butter</label>
+               <label for="item1">1/2 cup of salted butter</label>
                <input type="checkbox" name="item1" id="item1">
             </p>
             <p>
@@ -88,6 +89,11 @@
                 <input type="checkbox" name="item9" id="item9">
              </p>
         </form>
+    </div>
+    <div class="scaleButton">
+        <label for="batchInput">Enter number of batches:</label>
+        <input type="number" id="batchInput" min="1">
+        <button onclick="scaleRecipe()">Scale Recipe</button>
     </div>
 
     <div class = "instructions">
